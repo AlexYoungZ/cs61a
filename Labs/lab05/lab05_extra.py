@@ -26,6 +26,7 @@ def build_successors_table(tokens):
         prev = word
     return table
 
+
 def construct_sent(word, table):
     """Prints a random sentence starting with word, sampling from
     table.
